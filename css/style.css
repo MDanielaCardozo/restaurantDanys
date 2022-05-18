@@ -1,0 +1,229 @@
+* {
+    font-family: 'Dancing Script', cursive;
+    font-size:25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 20px;
+    background: rgb(56, 56, 59);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.brand {
+    color: aliceblue;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+     color: aliceblue;
+     margin: 0 10px;
+     text-decoration: none;
+ }
+
+ i {
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ nav a:hover {
+     text-decoration: underline;
+     text-decoration-color: aliceblue;
+ }
+
+ .fa-solid {
+     color: aliceblue;
+ }
+
+ .banner {
+     height: 750px;
+     width: 100%;
+     object-fit: cover;
+     position: relative;
+     padding-top: 10px;
+ }
+
+.containerTitle {
+     position: absolute;
+     text-align: center;
+     width: 100%;
+     box-sizing: border-box;
+     color: aliceblue;
+     top: 40%;
+}
+
+.contactoImagen {
+    text-align: center;
+    padding-top: 130px;
+}
+
+ .title {
+     text-align: center;
+     color: rgb(86, 25, 143);
+     font-size: 35px;
+ }
+
+hr {
+    margin: 10px 30px;
+}
+
+p {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2, h3 {
+    margin: 10px;
+    color: rgb(86, 25, 143);
+}
+
+.ColoredSection {
+    background: rgb(226, 216, 235);
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.nocoloredSection {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    width: 45%;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+
+.card {
+    width: 20%;
+    border: 5px solid rgb(179, 117, 236);
+    border-radius: 10px;
+    background: rgb(243, 243, 97);
+    color: rgb(179, 117, 236);
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0px;
+
+}
+
+.card:hover {
+    background: rgb(255, 255, 0);
+}
+
+.contactInfo h3 {
+    color: rgb(255, 0, 64);
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.sectionFooter {
+    background:rgb(179, 117, 236);
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(226, 216, 235);
+}
+
+@media all and (max-width: 768px) {
+
+    body {
+        font-size: 25px;
+    }
+
+    .banner {
+        height: 700px;
+    }
+
+    .ColoredSection {
+        flex-wrap: wrap;
+    }
+
+    .nocoloredSection {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .containerTitle {
+        top: 40%;
+    }
+
+    .fotochef {
+        margin-left: 5%;
+    }
+
+    .contactInfo {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+
+    .nocoloredSection {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .fotochef {
+      margin-left: 30%;
+    }
+
+    .fotoplato {
+        margin-top: 5%;
+    }
+
+    .containerTitle {
+        top: 32%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
